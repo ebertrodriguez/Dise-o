@@ -73,4 +73,12 @@ public class principal {
 			System.out.println("El numero es: " + numeros[i1]);
 		}
 	}
+	
+	public void dado () {
+		int tiro = 0;
+		//nuevo comentario
+		
+	}
+	
+	
 }
