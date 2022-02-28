@@ -31,9 +31,9 @@ public class JuegoG {
 		 			dado = azar.nextInt(6) + 1;
 		 			JOptionPane.showMessageDialog(null, "su numero es " + dado);
 		 			if (dado == 1 || dado == 6) {
-		 				JOptionPane.showMessageDialog(null, "ponga una moneda en el pozo");
+		 				JOptionPane.showMessageDialog(null, "ponga el valor de la apuesta inicial de la casa");
 		 				casa = casa + casa1 ;
-		 				JOptionPane.showMessageDialog(null, "el valor del pozo es : " + casa + " pesos");
+		 				JOptionPane.showMessageDialog(null, "el valor de la casa es : " + casa + " pesos");
 		 				} else {
 		 					apuesta= Integer.parseInt(JOptionPane.showInputDialog("ponga su apuesta"));
 		 					JOptionPane.showMessageDialog(null, "precione enter para lanzar");
@@ -41,11 +41,11 @@ public class JuegoG {
 		 					JOptionPane.showMessageDialog(null, "su numero es " + dado1);
 		 					if (dado1 <= dado) {
 		 						JOptionPane.showMessageDialog(null, "pierde");
-		 						casa = casa + apuesta;JOptionPane.showMessageDialog(null, "el valor del pozo es : " + casa + "monedas ");
+		 						casa = casa + apuesta;JOptionPane.showMessageDialog(null, "el valor de la casa es : " + casa + " pesos");
 		 						} else {
 		 							JOptionPane.showMessageDialog(null, "gana lo apostado");
 		 							casa = casa - apuesta;
-		 							JOptionPane.showMessageDialog(null,"el pozo tiene " + casa + " monedas");
+		 							JOptionPane.showMessageDialog(null,"el pozo tiene " + casa + " pesos");
 
 		 
 		 }
