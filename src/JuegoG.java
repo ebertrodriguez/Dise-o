@@ -48,12 +48,12 @@ public class JuegoG {
 		 							JOptionPane.showMessageDialog(null,"el pozo tiene " + casa + " pesos");
 
 		 
-		 }
+		 						}
 		 					
 		 			if (casa == 0) {JOptionPane.showMessageDialog(null,"gracias por jugar ");
 		 			i = cantidad - 1;
 		 			}
-		 			}
+		 				}
 		 			}
 		 		} while (casa != 0);
 		 	}
